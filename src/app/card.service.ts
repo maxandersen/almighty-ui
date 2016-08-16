@@ -8,7 +8,7 @@ import { Card } from './card';
 @Injectable()
 export class CardService {
   // private workItemUrl = 'app/workItems';  // URL to web api
-  private workItemUrl = 'app/workItems';  // URL to web api
+  private workItemUrl = 'http://core:8080/api/workitem';  // URL to web api
 
   constructor(private http: Http) { }
 
